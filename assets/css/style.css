@@ -1,0 +1,31 @@
+.bg {
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1,h2,h3,li {
+color: #3F7FBF;
+}
+h1{
+    font-size: 200%;
+}
+#randomNumber, #wins, #losses, #totalScore {
+    color: azure;
+}
+#one {
+    width: 150px;
+    height: 150px;
+}
+#two {
+    width: 150px;
+    height: 150px;
+}
+#three {
+    width: 150px;
+    height:150px;
+}
+#four {
+    width: 150px;
+    height: 150px;
+}

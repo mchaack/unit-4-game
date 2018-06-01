@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body class= "bg" id= "body" background="assets/images/gemBackground.gif";>
+	<div class="header">
+		<h1>Crystal Collector</h1>
+	</div>
+	<br>
+	<div class="instructions">
+		<h3>RULES OF THE GAME</h3>
+		<br>
+		<ol>
+			<li>Click each crystal to discover it's hidden value!</li>
+			<li>Match the number you are given by adding values of the mystery crystals below.</li>
+		</ol>
+	<br>
+	<br>
+	<br>
+	</div>
+	<div class="numberToMatch">
+		<h2>Number To Match:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<br>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "Times You've Won"></span>
+			<br>
+			<br>
+			Losses: 
+			<span id= "Times You've Lost"></span>
+		</h2>
+	</div>
+
+	<div class="gems">
+		<img src="assets/images/gem1.gif" class=gemImage id="one" alt="Crystall">
+		<img src="assets/images/gem2.gif" class=gemImage id="two" alt="Crystal2">
+		<img src="assets/images/gem1.gif" class=gemImage id= "three" alt="Crystal3">
+		<img src="assets/images/gem2.gif" class=gemImage id= "four" alt="Crystal4">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="totalScore"></span>
+		</h2>
+	</div>
+	
+	
+</body>
+</html>
